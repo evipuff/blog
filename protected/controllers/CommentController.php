@@ -161,4 +161,20 @@ class CommentController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+	public function actionApprove($id)
+	{
+		$model = $this->loadModel($id); // Load the comment model by ID
+
+		if ($model->status == Comment::STATUS_PENDING) { // Ensure it's pending before approving
+			$model->status = Comment::STATUS_APPROVED; // Change status to approved
+			if ($model->save(false)) { // Save the model without validation
+				Yii::app()->user->setFlash('success', 'Comment approved successfully.');
+			} else {
+				Yii::app()->user->setFlash('error', 'Failed to approve comment.');
+			}
+		}
+
+		$this->redirect(array('admin')); // Redirect back to the comment management page
+	}
 }

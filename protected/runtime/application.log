@@ -3197,3 +3197,118 @@ in C:\xampp\htdocs\blog\index.php (13)
 in C:\xampp\htdocs\blog\protected\controllers\PostController.php (214)
 in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
 in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 08:45:13 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (214)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:45 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (87)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:53 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:53 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:54 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:54 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:56 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:56 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:57 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:57 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:58 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:07:58 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:08:00 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:08:00 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:09:40 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (87)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:09:40 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (87)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 09:09:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
+2025/03/19 09:09:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
+2025/03/19 09:10:26 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
+2025/03/19 09:10:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
+2025/03/19 09:10:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
+2025/03/19 09:12:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "approve". in C:\xampp\htdocs\blog\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\web\CController.php(270): CController->missingAction('approve')
+#1 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('approve')
+#2 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('comment/approve')
+#3 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/comment/approve/4
+HTTP_REFERER=http://localhost/blog/index.php/comment/4
+---
