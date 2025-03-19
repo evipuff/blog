@@ -19,15 +19,18 @@ $this->menu=array(
 <h1>View Comment #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'content',
-		'status',
-		'create_time',
-		'author',
-		'email',
-		'url',
-		'post_id',
-	),
+    'data'=>$model,
+    'attributes'=>array(
+        'id',
+        'content',
+        array(
+            'name'=>'status',
+            'value'=>Lookup::item("CommentStatus", $model->status), // FIX: Correct usage of Lookup::item
+        ),
+        'create_time',
+        'author',
+        'email',
+        'url',
+        'post_id',
+    ),
 )); ?>
