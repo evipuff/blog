@@ -47,7 +47,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'columns'=>array(
 		'id',
 		'content',
-		'status',
+		array(
+            'name'=>'status',
+            'value'=>'Lookup::item("CommentStatus",$data->status)',
+            'filter'=>Lookup::items('CommentStatus'),
+        ),
 		'create_time',
 		'author',
 		'email',

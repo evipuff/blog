@@ -22,7 +22,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status'); ?>
+		<?php echo $form->dropDownList($model,'status',Lookup::items('CommentStatus')); ?>
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 
