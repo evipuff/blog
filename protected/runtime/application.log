@@ -2546,3 +2546,51 @@ Stack trace:
 REQUEST_URI=/blog/index.php/comment/1
 HTTP_REFERER=http://localhost/blog/index.php/comment/index
 ---
+2025/03/19 06:17:21 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (212)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:17:22 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (212)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:17:24 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (212)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:17:25 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (212)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:17:33 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (212)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:17:44 [warning] [application] Failed to set unsafe attribute "post_id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (218)
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (50)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:16 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:16 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:20 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:20 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:25 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:25 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:28 [warning] [application] Failed to set unsafe attribute "id" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
+2025/03/19 06:18:28 [warning] [application] Failed to set unsafe attribute "create_time" of "Comment".
+in C:\xampp\htdocs\blog\protected\controllers\CommentController.php (130)
+in C:\xampp\htdocs\blog\index.php (13)
