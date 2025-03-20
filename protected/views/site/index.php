@@ -16,10 +16,11 @@ $this->pageTitle=Yii::app()->name;
     <p class="text-center text-lg text-gray-700 mb-6">
         You may change the content of this page by modifying the following two files:
     </p>
-    <ul class="list-inside text-lg text-gray-600 mb-6">
-        <li>View file: <code class="text-pink-500"><?php echo __FILE__; ?></code></li>
-        <li>Layout file: <code class="text-pink-500"><?php echo $this->getLayoutFile('main'); ?></code></li>
-    </ul>
+    <ul class="list-inside text-lg text-gray-600 mb-6 text-center mx-auto">
+    	<li>View file: <code class="text-pink-500"><?php echo __FILE__; ?></code></li>
+    	<li>Layout file: <code class="text-pink-500"><?php echo $this->getLayoutFile('main'); ?></code></li>
+	</ul>
+
 
     <p class="text-center text-lg text-gray-700 mb-6">
         For more details on how to further develop this application, please read

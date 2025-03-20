@@ -21,7 +21,7 @@ $this->menu = array(
             </span>
         </h1>
     <?php else: ?>
-        <h1 class="text-3xl font-extrabold text-pink-500">✨ All Adorable Posts ✨</h1>
+        <h1 class="text-3xl font-extrabold text-pink-500">Posts ✨</h1>
     <?php endif; ?>
 </div>
 
