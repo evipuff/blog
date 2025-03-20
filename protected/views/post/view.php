@@ -17,7 +17,7 @@ $this->menu=array(
 ?>
 
 <div class="bg-pink-50 p-8 rounded-xl shadow-lg border-2 border-pink-200 max-w-4xl mx-auto mt-6">
-    <h1 class="text-4xl font-bold text-pink-600 text-center mb-6">📖 View Post #<?php echo $model->id; ?> 💕</h1>
+    <h1 class="text-4xl font-bold text-pink-600 text-center mb-6">View Post #<?php echo $model->id; ?> 📖</h1>
 
     <?php $this->widget('zii.widgets.CDetailView', array(
         'data'=>$model,
@@ -56,7 +56,7 @@ $this->menu=array(
         )); ?>
     <?php endif; ?>
 
-    <h3 class="text-2xl font-semibold text-pink-600 mt-6">💖 Leave a Comment</h3>
+    <h3 class="text-2xl font-semibold text-pink-600 mt-6">Leave a Comment</h3>
 
     <?php if(Yii::app()->user->hasFlash('commentSubmitted')): ?>
         <div class="flash-success p-4 mt-3 text-white bg-pink-500 rounded-lg shadow-md">

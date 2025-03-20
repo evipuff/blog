@@ -14,7 +14,7 @@ $this->menu = array(
 ?>
 
 <div class="mb-6">
-    <h1 class="text-3xl font-bold text-gray-800">Create Post</h1>
+    <h1 class="text-3xl font-bold text-gray-800">Create Post 📝</h1>
 </div>
 
 <div class="bg-white p-6 rounded-lg shadow-md">
