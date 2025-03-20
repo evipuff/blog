@@ -1,0 +1,163 @@
+/* Professional yet girly pop style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fce4ec, #f8bbd0);
+    color: #444;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#header {
+    background: #f06292;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+#mainmenu {
+    background: #f06292;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 0px;
+}
+
+#mainmenu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#mainmenu a:hover {
+    background: white;
+    color: #f06292;
+    border-radius: 5px;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px;
+    background: #f06292;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top: auto;
+}
+
+/* Form Styling */
+.form {
+    background: #fff3f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form .row {
+    margin-bottom: 15px;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f06292;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form .rememberMe {
+    display: flex;
+    align-items: center;
+}
+
+.form .rememberMe input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form .buttons {
+    text-align: center;
+}
+
+.form .buttons input[type="submit"] {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form .buttons input[type="submit"]:hover {
+    background: #d81b60;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    #header {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #mainmenu {
+        padding: 8px 0;
+    }
+
+    #mainmenu a {
+        padding: 8px 12px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    .form input[type="text"],
+    .form input[type="password"],
+    .form textarea {
+        font-size: 14px;
+    }
+
+    .form .buttons input[type="submit"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

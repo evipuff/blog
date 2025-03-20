@@ -16,21 +16,29 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Comment #<?php echo $model->id; ?></h1>
+<h1 class="text-3xl font-semibold text-pink-600 mb-4">View Comment #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
     'data'=>$model,
     'attributes'=>array(
         'id',
-        'content',
+        array(
+            'name'=>'content',
+            'type'=>'raw',
+            'value'=>"<p class='italic text-pink-500'>" . CHtml::encode($model->content) . "</p>", // Add italics and soft pink color
+        ),
         array(
             'name'=>'status',
-            'value'=>Lookup::item("CommentStatus", $model->status), // FIX: Correct usage of Lookup::item
-        ),
+            'type'=>'raw', // This ensures the HTML is rendered correctly
+            'value'=>"<span class='text-pink-500'>" . CHtml::encode(Lookup::item("CommentStatus", $model->status)) . "</span>",
+        ),        
         'create_time',
         'author',
         'email',
         'url',
         'post_id',
+    ),
+    'htmlOptions'=>array(
+        'class'=>'bg-pink-50 p-6 rounded-lg shadow-xl border-2 border-pink-200',
     ),
 )); ?>

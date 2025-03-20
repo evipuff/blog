@@ -39,7 +39,7 @@
 		<?php echo $form->error($model,'email'); ?>
 	</div>
 
-	<div class="row">
+	<!-- <div class="row">
 		<?php echo $form->labelEx($model,'url'); ?>
 		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'url'); ?>
@@ -49,7 +49,7 @@
 		<?php echo $form->labelEx($model,'post_id'); ?>
 		<?php echo $form->textField($model,'post_id'); ?>
 		<?php echo $form->error($model,'post_id'); ?>
-	</div>
+	</div> -->
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
