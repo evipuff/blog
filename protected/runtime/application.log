@@ -3770,3 +3770,63 @@ Stack trace:
 #12 {main}
 REQUEST_URI=/blog/index.php/comment/update/
 ---
+2025/03/20 18:56:54 [error] [exception.Error] Error: Using $this when not in object context in C:\xampp\htdocs\blog\protected\components\RecentComments.php:4
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\YiiBase.php(463): include()
+#1 [internal function]: YiiBase::autoload('RecentComments')
+#2 C:\xampp\htdocs\blog\framework\YiiBase.php(310): class_exists('RecentComments', true)
+#3 C:\xampp\htdocs\blog\framework\web\CWidgetFactory.php(146): YiiBase::import('RecentComments', true)
+#4 C:\xampp\htdocs\blog\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PostController), 'RecentComments', Array)
+#5 C:\xampp\htdocs\blog\framework\web\CBaseController.php(181): CBaseController->createWidget('RecentComments', Array)
+#6 C:\xampp\htdocs\blog\protected\views\layouts\column2.php(27): CBaseController->widget('RecentComments', Array)
+#7 C:\xampp\htdocs\blog\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\protected\controllers\PostController.php(146): CController->render('index', Array)
+#11 C:\xampp\htdocs\blog\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#12 C:\xampp\htdocs\blog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\blog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\blog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\blog\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\blog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\blog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\blog\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\blog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#22 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/blog/index.php/post
+HTTP_REFERER=http://localhost/blog/index.php/site/contact
+---
+2025/03/20 18:56:58 [error] [exception.Error] Error: Using $this when not in object context in C:\xampp\htdocs\blog\protected\components\RecentComments.php:4
+Stack trace:
+#0 C:\xampp\htdocs\blog\framework\YiiBase.php(463): include()
+#1 [internal function]: YiiBase::autoload('RecentComments')
+#2 C:\xampp\htdocs\blog\framework\YiiBase.php(310): class_exists('RecentComments', true)
+#3 C:\xampp\htdocs\blog\framework\web\CWidgetFactory.php(146): YiiBase::import('RecentComments', true)
+#4 C:\xampp\htdocs\blog\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PostController), 'RecentComments', Array)
+#5 C:\xampp\htdocs\blog\framework\web\CBaseController.php(181): CBaseController->createWidget('RecentComments', Array)
+#6 C:\xampp\htdocs\blog\protected\views\layouts\column2.php(27): CBaseController->widget('RecentComments', Array)
+#7 C:\xampp\htdocs\blog\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\framework\web\CController.php(787): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\protected\controllers\PostController.php(146): CController->render('index', Array)
+#11 C:\xampp\htdocs\blog\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#12 C:\xampp\htdocs\blog\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\blog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\blog\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\blog\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\blog\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\blog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\blog\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\blog\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#22 C:\xampp\htdocs\blog\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/blog/index.php/post
+HTTP_REFERER=http://localhost/blog/index.php/site/contact
+---

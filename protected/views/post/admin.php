@@ -44,7 +44,7 @@ $('.search-form form').submit(function(){
         array(
             'name' => 'status',
             'type' => 'raw',
-            'value' => 'CHtml::tag("span", array("class" => $data->status == 1 ? "bg-green-200 text-green-800 px-2 py-1 rounded" : "bg-red-200 text-red-800 px-2 py-1 rounded"), Lookup::item("PostStatus", $data->status))',
+            'value' => 'CHtml::tag("span", array("class" => $data->status == 2 ? "bg-green-200 text-green-800 px-2 py-1 rounded" : "bg-red-200 text-red-800 px-2 py-1 rounded"), Lookup::item("PostStatus", $data->status))',
             'filter' => Lookup::items('PostStatus'),
             'headerHtmlOptions' => array('class' => 'px-4 py-2 bg-gray-200 text-gray-800'),
             'htmlOptions' => array('class' => 'px-4 py-2 text-gray-900'),
