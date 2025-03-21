@@ -5,11 +5,11 @@
 
 <div class="view bg-pink-50 p-6 rounded-lg shadow-xl mb-6 border-2 border-pink-200">
 
-    <!-- Post ID -->
+    <!-- Post ID
     <div class="text-2xl font-bold text-pink-600 mb-4">
         <b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
         <?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id), ['class' => 'text-pink-800 hover:text-pink-600']); ?>
-    </div>
+    </div> -->
 
     <!-- Post Title -->
     <div class="text-2xl font-semibold text-pink-500 mb-4">
@@ -32,7 +32,7 @@
     <!-- Post Status -->
     <div class="text-md text-gray-700 mb-4">
         <b><?php echo CHtml::encode($data->getAttributeLabel('status')); ?>:</b>
-        <span class="text-pink-400"><?php echo CHtml::encode($data->status); ?></span>
+        <span class="text-pink-400"><?php echo CHtml::encode(Lookup::item('PostStatus', $data->status)); ?></span>
     </div>
 
     <!-- Creation Time -->

@@ -43,9 +43,9 @@ $this->pageTitle=Yii::app()->name;
         right: -10px;
         animation: sparkleAnimation 1s infinite;
     }
-    @keyframes sparkleAnimation {
+    /* @keyframes sparkleAnimation {
         0% { opacity: 1; transform: rotate(0deg); }
         50% { opacity: 0.6; transform: rotate(45deg); }
         100% { opacity: 1; transform: rotate(0deg); }
-    }
+    } */
 </style>
